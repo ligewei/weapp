@@ -1,0 +1,9 @@
+.success_grp {
+  align-content: center;
+  margin-top: 50rpx;
+}
+
+.img_size {
+  width: 564rpx;
+  height: 786rpx;
+}

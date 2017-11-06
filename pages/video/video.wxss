@@ -1,0 +1,12 @@
+.video_kuang {
+  margin-top: 100px;
+  width: 100%;
+  align-items: center;
+  padding-top: 80px;
+}
+
+.video_btn {
+  align-items: center;
+  margin-top: 80px;
+  width: 80%;
+}

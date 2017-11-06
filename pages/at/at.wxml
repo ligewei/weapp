@@ -1,0 +1,10 @@
+<view class="container">
+  <view class='success_grp'>
+    <block class='success_grp' wx:for="{{iconSize}}">
+      <icon type="success" size="{{item}}" />
+    </block>
+  </view>
+  <view>
+  <image class='img_size' src='../../image/lgwnux.jpg'></image>
+  </view>
+</view>

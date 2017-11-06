@@ -1,1 +1,8 @@
-<view></view>
+<view class="container">
+<view>
+    <video autoplay='true' loop='true' src="{{src}}"></video>
+</view>
+    <view class="video_btn">
+    <button type='primary' bindtap="bindButtonTap">雷视再亨</button>
+    </view>
+</view>
