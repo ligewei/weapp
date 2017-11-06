@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/feed/feed",
+    "pages/video/video",
+    "pages/todo/todo",
+    "pages/at/at"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "雷大亨",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#6e6d6b",
+    "selectedColor": "#e64340",        
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "image/icon_home.png",
+        "selectedIconPath": "image/icon_home_hl.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/video/video",
+        "iconPath": "image/icon_video.png",
+        "selectedIconPath": "image/icon_video_hl.png",
+        "text": "媒体"
+      },
+      {
+        "pagePath": "pages/todo/todo",
+        "iconPath": "image/icon_todo.png",
+        "selectedIconPath": "image/icon_todo_hl.png",
+        "text": "任务"
+      },
+      {
+        "pagePath": "pages/at/at",
+        "iconPath": "image/icon_at.png",
+        "selectedIconPath": "image/icon_at_hl.png",
+        "text": "联系"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 20000,
+    "uploadFile": 30000,
+    "downloadFile": 30000
+  }
+}
