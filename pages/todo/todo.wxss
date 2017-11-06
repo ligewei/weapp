@@ -5,33 +5,24 @@
   border-radius: 10rpx;
   box-shadow: 0 0 5rpx #e0e0e0;
   margin-bottom: 30rpx;
-  padding-left: 8rpx;
-  padding-right: 8rpx;
-  width: 90%;
-  height: 100rpx;
+  padding: 20rpx;
 }
 
 .header .plus {
-  width: 80rpx;
-  height: 80rpx;
+  width: 41rpx;
+  height: 41rpx;
   margin-right: 20rpx;
 }
 
 .header .new-todo {
   flex: 1;
-  font-size: 50rpx;
+  font-size: 28rpx;
 }
 
 .todos {
   border: 1rpx solid #e0e0e0;
   border-radius: 10rpx;
   box-shadow: 0 0 5rpx #e0e0e0;
-  padding-left: 8rpx;
-  padding-right: 8rpx;
-  width: 90%;
-  height: 100rpx;
-  padding-top: 10rpx;
-  padding-bottom: 10rpx;
 }
 
 .todos .item {
@@ -59,11 +50,13 @@
   text-decoration: line-through;
   color: #888;
 }
+
 /* 
 .todos .item .remove {
   cursor: pointer;
 }
 */
+
 .footer {
   display: flex;
   justify-content: space-between;
@@ -72,11 +65,13 @@
   font-size: 26rpx;
   color: #777;
 }
+
 /* 
 .footer .btn {
   cursor: pointer;
 }
 */
+
 .empty {
   display: flex;
   flex-direction: column;

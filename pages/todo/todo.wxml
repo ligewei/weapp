@@ -1,16 +1,16 @@
 <view class="container">
   <view class="header">
-    <image class="plus" src="../../image/plus.png"/>
-    <input class="new-todo" value="{{ input }}" placeholder="Anything here..." auto-focus bindinput="inputChangeHandle" bindconfirm="addTodoHandle"/>
+    <image class="plus" src="../../image/plus.png" />
+    <input class="new-todo" value="{{ input }}" placeholder="Anything here..." auto-focus bindinput="inputChangeHandle" bindconfirm="addTodoHandle" />
   </view>
   <block wx:if="{{ todos.length }}">
     <view class="todos">
       <!-- List items should get the class `completed` when marked as completed -->
       <view class="item{{ item.completed ? ' completed' : '' }}" wx:for="{{ todos }}" wx:key="{{ index }}" bindtap="toggleTodoHandle" data-index="{{ index }}">
         <!-- completed: success, todo: circle -->
-        <icon class="checkbox" type="{{ item.completed ? 'success' : 'circle' }}"/>
+        <icon class="checkbox" type="{{ item.completed ? 'success' : 'circle' }}" />
         <text class="name">{{ item.name }}</text>
-        <icon class="remove" type="clear" size="16" catchtap="removeTodoHandle" data-index="{{ index }}"/>
+        <icon class="remove" type="clear" size="16" catchtap="removeTodoHandle" data-index="{{ index }}" />
       </view>
     </view>
     <view class="footer">
